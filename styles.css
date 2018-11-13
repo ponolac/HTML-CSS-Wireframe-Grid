@@ -1,0 +1,31 @@
+h1 {
+    font-size: 36px;
+    color:red;
+}
+
+p, li {
+    font-family: helvetica;
+    font-size: 20px;
+    color:gray;
+}
+
+.hero-image {
+    background: url("images/mainimage.jpg") no-repeat center center;
+    height: 500px;
+    background-size: cover;
+}
+
+.content-image {
+    background: url("images/contentimage1.jpg") no-repeat center center;
+    height: 500px;
+    background-size: cover;
+}
+
+.welcome {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    background: #ecf0f1;
+}
