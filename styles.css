@@ -1,13 +1,42 @@
 h1 {
-    font-size: 36px;
-    color:red;
+    font-size: 18px;
+    font-family: 'Cabin', serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Lobster', serif;
 }
 
 p, li {
-    font-family: helvetica;
+    font-family: 'Cabin', serif;
     font-size: 20px;
     color:gray;
 }
+
+header h1 {
+    text-align: left;
+    font-family: 'Lobster', serif;
+}
+
+/* NAV BAR STYLES */
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0px 15px 0px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* HOME PAGE STYLES */
 
 .hero-image {
     background: url("images/mainimage.jpg") no-repeat center center;
@@ -22,10 +51,20 @@ p, li {
 }
 
 .welcome {
+    font-family: 'Cabin', serif;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
     padding-left: 80px;
     padding-right: 80px;
     text-align: center;
-    background: #ecf0f1;
+    background: #E8F2FC;
+    -webkit-box-shadow: 0px 1px 38px 22px rgba(192,214,223,0.38);
+    -moz-box-shadow: 0px 1px 38px 22px rgba(192,214,223,0.38);
+    box-shadow: 0px 1px 38px 22px rgba(192,214,223,0.38);
+}
+
+span.notbold {
+    font-family: 'Cabin', serif;
+    font-size: 18px;
+    font-weight: lighter;
 }
