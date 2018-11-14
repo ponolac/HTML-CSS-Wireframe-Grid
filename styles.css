@@ -1,5 +1,6 @@
 body {
     padding: 50px 50px 50px 50px;
+    color:rgb(86, 85, 85);
 }
 
 h1 {
@@ -15,7 +16,6 @@ h2 {
 p, li {
     font-family: 'Cabin', serif;
     font-size: 20px;
-    color:gray;
 }
 
 /* NAV BAR STYLES */
@@ -84,6 +84,7 @@ span.notbold {
     font-family: 'Cabin', serif;
     font-size: 18px;
     font-weight: lighter;
+    text-transform: uppercase;
 }
 
 .footer {
