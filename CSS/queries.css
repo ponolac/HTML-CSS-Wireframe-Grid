@@ -34,8 +34,11 @@
         width: 100%;
         align-self: auto;
     }
-    .footer .three ul {
+    .footer div.three ul {
         display: none;
+    }
+    .footer div.three h2 {
+         display: none;
     }
 }
 
