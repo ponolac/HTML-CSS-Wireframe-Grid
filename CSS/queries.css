@@ -60,8 +60,15 @@
     }
     .content-image2 {
         padding: 45%;
+        width: auto;
+        height: auto;
     }
-    
+    .footer div.three ul {
+        display: none;
+    }
+    .footer div.three h2 {
+         display: none;
+    }
 } 
 
 /* for-tablet-landscape-up */
