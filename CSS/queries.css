@@ -49,7 +49,17 @@
         height: 450px;
     }
     .content1 {
-        padding-top: 20%;
+        padding-top: 15%;
+    }
+    .six {
+        width: 100%;
+    }
+    .content2 {
+        padding-top: 12%;
+        padding-bottom: 12%;
+    }
+    .content-image2 {
+        padding: 45%;
     }
     
 } 
